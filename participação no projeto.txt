@@ -1,0 +1,19 @@
+Olá Prof. Tudo bem?
+
+Aqui é o Tiago da equipe 1 do grupo Machine Tech, nosso projeto foi o Hotel para cães e gatos e vou falar sobre a parte de cada um no projeto.
+
+Design: Bruno Costa e Tiago
+Nome: Bruno Costa
+Logo: Tiago
+
+Página Inicial: Bruno Costa
+Página Como Funciona: Tiago
+Página Estrutura: Bruno Costa/Bruno Nogueira
+Página de Contato: Tiago
+Página de Cadastro: Guilherme
+Página de Login: Gabriel Correia
+
+Bruno Costa: Eu também fiz os ligamentos das páginas e juntei os CSS de cada um em um único arquivo, deu trabalho e conflito entre os códigos, reescrevi boa parte dos códigos 
+deles por causa de bug no CSS e no HTML quando juntei o CSS tive que organizar o html de todos, modificar boa parte do CSS, ele alteravam div e alterava todas as div das outras paginas, 
+então tive que criar class, tive que criar class para div, h1, header, p, etc... Melhorei alguns códigos e estrutura também. 
+Fiz apenas o responsivo para tela de notebook: 1440x900. Porque eu desenvolvi no meu PC, que a resolução é 1920x1080, então para não bugar o site quando forem vê pelo notebook.

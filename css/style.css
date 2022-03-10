@@ -1,0 +1,1351 @@
+/* INICIAL: Bruno Costa */
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.container{
+	max-width: 1920px;
+	margin:0 auto;
+	width: 100%;
+}
+
+.header-inicio{
+	width: 100%;
+	height: 150px;
+	font-size: 17px;
+	background-color: #F0F1F1;
+}
+
+.logo{
+	width: 250px;
+	height: 100px;
+	float: left;
+	margin-left: -18px;
+	margin-top: 15px;
+	background-image: url('../imagens/logo.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header-inicio .paginas{float: left;}
+.header-inicio .login{float: right;}
+
+.header-inicio .paginas,.login, li{
+	float: left;
+	padding:0 15px;
+}
+
+.header-inicio .paginas,.login, li a{
+	text-decoration: none;
+	color: black;
+}
+
+.header-inicio .paginas ul{
+	margin-top: 65px;
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+.header-inicio .login ul{
+	margin-top: 65px;
+	list-style-type: none;
+	margin-right: 80px;
+}
+
+#select {color: #F24D5D;}
+
+.header-inicio .paginas,.login, li a:hover{color: #F24D5D;}
+
+section.banner{
+	width: 100%;
+	height: 900px;
+	padding: 10px 0%;
+	background-color: #F0F1F1;
+	border-bottom: 8px solid #F24D5D;
+}
+
+.capa{
+	margin: -790px 0 0 46.3%;
+	width: auto;
+	height: auto;
+}
+
+.texto-capa::selection{user-select: none;}
+
+.texto-capa .formato{
+	color: #57B855;
+	margin: 0%;}
+
+.texto-capa h1,
+.formato{
+	margin: 30px 0 0 12%;
+	line-height: 180px;
+	color: black;
+	font-size: 180px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+section.explicacao{
+	width: 100%;
+	background-color: #4393D8;
+	height: 550px;
+	text-align: center;
+	border-bottom: 8px solid #F24D5D;
+}
+
+.titulo-explicacao h1{
+	padding-top: 30px;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: 'Reem Kufi';
+	font-weight: bold;
+}
+
+.icon{margin: 20px 0 0 25%;}
+
+.racao{
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+}
+
+.celular{
+	float: left;
+	width: 210px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.passeio,
+.veterinario,
+.especialistas{
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.racao-icon,
+.passeio-icon,
+.veterinario-icon,
+.celular-icon,
+.especialistas-icon{
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+}
+
+.racao,
+.passeio,
+.veterinario,
+.celular,
+.especialistas, h6{
+	font-size: 25px;
+	margin: 10px 0;
+}
+
+.racao,
+.passeio,
+.veterinario,
+.celular,
+.especialistas, p{font-size: 20px;}
+
+.botao{
+	width: 180px;
+	height: 64px;
+	text-align: center;
+	margin: 320px 0 0 45%;	
+	line-height: 60px;
+	border-radius: 10px;
+	background-color: #F24D5D;
+	font-size: 20px;
+	cursor: pointer;
+	clear: both;	
+}
+
+.botao a{
+	color: black;
+	text-decoration: none;
+}
+
+.cachorro{
+	position: absolute;
+	width: auto;
+	height: auto;
+	margin: -359px 0 0 -3%;
+}
+
+.gato{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: -128px 0 0 85%;
+}
+
+section.sessao-foto{
+	width: 100%;
+	background-color: #F0F1F1;
+	height: 1200px;
+	clear: both;
+}
+
+.fotos{
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.fotos h1{
+	color: #57B855;
+	padding: 20px 0;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: 'Reem Kufi';
+	font-weight: bold;
+	text-align: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4, img{
+	width: 500px;
+	height: 350px;
+}
+
+.img1{
+	position: relative;
+	width: auto;
+	margin: 50px 0 0 13%;
+	float: left;
+	z-index: 1;
+}
+
+.img2{
+	position: relative;
+	width: auto;
+	margin: 50px 0 0 23%;
+	float: left;
+	z-index: 1;
+}
+
+.img3{
+	position: relative;
+	width: auto;
+	margin: 125px 0 0 13%;
+	float: left;
+	z-index: 1;
+}
+
+.img4{
+	position: relative;
+	width: auto;
+	margin: 125px 0 0 23%;
+	float: left;
+	z-index: 1;
+}
+
+.fotos h2{
+	font-size: 25px;
+	margin-top: 5px;
+	color: black;
+	font-family: 'Reem Kufi';
+}
+
+.ondas{
+	position: absolute;
+	width: 100%;
+	margin-top: 363px;
+}
+
+.ondas img{	
+	width: 100%; 
+	height: 750px;
+}
+
+section.visitar{
+	width: 100%;
+	height: 400px;
+	margin-top: 13px;
+	background-image: url('../imagens/imagem.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.texto-visitar{
+	text-align: center;
+	color: white;
+}
+
+.texto-visitar h1{
+	padding-top: 50px;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: bold;
+}
+
+.texto-visitar p{
+	padding-top: 40px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: white;
+	font-family: 'Reem Kufi';
+}
+
+.botao-home{text-align: center;}
+
+.botao-visitar{
+	width: 280px;
+	height: 64px;
+	margin-top: 70px;	
+	line-height: 60px;
+	border-radius: 10px;
+	background-color: #57B855;
+	font-size: 20px;
+	cursor: pointer;
+	clear: both;
+}
+
+.botao-visitar a{
+	color: black;
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 600px;
+	background: #F0F1F1;
+}
+
+.rodape h1{
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Reem Kufi';
+	font-weight: 600;
+}
+
+.rodape p{
+	margin-top: 10px;
+	font-size: 20px;
+	color: black;
+	font-weight: 400;
+}
+
+.rodape .info1,
+.info2,
+.info3{
+	width: 33.3%;
+	float: left;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.rodape .info4{
+	width: 35%;
+	float: left;
+	margin-top: 140px;
+	text-align: center;
+}
+
+.rodape .info6,
+.info5{
+	width: 32%;
+	float: left;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.info5 img{
+	width: 160px;
+	height: 110px;
+}
+
+.info2 img{
+	width: 40px;
+	height: 40px;
+	margin: 15px 10px 0 10px;
+}
+
+.info1,
+.info2,
+.info3,
+.info6, h2{font-size: 30px;}
+
+@media screen and (max-width: 1680px){	
+	.img1{margin: 50px 0 0 10%;}
+			
+	.img2{margin: -345px 0 0 60%;}
+		
+	.img3{margin: 155px 0 0 10%;}
+		
+	.img4{margin: -350px 0 0 60%;}
+}
+
+@media screen and (max-width: 1440px){
+	.capa{
+		width: 60%;
+		float: left;
+		position: absolute;		
+		margin: 120px 570px;
+	}
+
+	.texto-capa{
+		float: left;
+		position: absolute;
+		width: 50%;
+		margin-left: -50px;
+	}
+
+	.icon{margin: 20px 0 0 180px;}
+
+	.cachorro{
+		width: 280px;
+		height: 300px;
+		margin: -230px 0 0 -5%;
+	}
+
+	.gato{
+		width: 180px;
+		height: 200px;
+		margin: -98px 0 0 80%;
+	}
+
+	.fotos{	margin-left: -200px;}
+
+	.fotos h1{margin-left: 200px;}
+
+	.img1,.img2,.img3,.img4, img{
+		width: 400px;
+		height: 260px;
+	}
+
+	.img1{margin: 50px 0 0 25%;
+		float: left;}
+		
+		.img2{
+			margin: -260px 0 0 75%;
+			float: left;
+		}
+		
+		.img3{margin: 150px 0 0 25%;}
+		
+		.img4{margin: -260px 0 0 75%;}
+}
+
+@media screen and (max-width: 1390px){
+	.capa{
+		width: 60%;
+		float: right;
+		position: absolute;		
+		margin: 160px 40%;
+	}
+
+	.img1{margin: 50px 0 0 25%;}
+	
+	.img2{margin: -260px 0 0 75%;}
+	
+	.img3{margin: 150px 0 0 25%;}
+	
+	.img4{margin: -260px 0 0 75%;}
+
+	section.explicacao{
+		height: 620px;
+	}
+	
+	.icon{
+		width: 100%;
+		margin: 20px 0 0 10%;
+		position: relative;
+		z-index: 1;
+	}
+
+	.racao{
+		width: 150px;	
+	}
+
+	.celular{
+		width: 170px;
+	}
+
+}
+
+/* COMO FUNCIONA: Tiago  */
+
+.foto-capa2 {
+	width: 100%;
+    height: 1000px;
+    padding: 10px 0%;
+    background-image: url('../imagens/fundo-capa.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-funciona{
+    width: 100%;
+    font-size: 17px;
+}       
+
+.logo-funciona {
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin-left: -18px;
+    margin-top: 15px;
+    background-image: url('../imagens/logo-branca.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;     
+}
+
+.header-funciona a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-funciona a:hover{color: #F24D5D;}
+
+.paginas-funciona{
+	float: left;
+	margin-top: 65px;
+}
+
+.paginas-funciona a{
+	padding:0 25px;
+	margin-top: 65px;
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+.login-funciona{
+	float: right;
+	margin-top: 65px;
+	margin-right: 80px;
+}
+
+.login-funciona a{
+	margin-top: 65px;
+	list-style-type: none;
+	padding:0 15px;
+}
+
+#retangulorosa {
+	position: absolute;
+	width: 585px;
+	height: 437px;
+	background: #F24D5D;
+	border-radius: 20px;
+	top: 264px;
+	margin-left: 55%;
+}
+
+.style-text {
+	margin-top: 31px;
+	color: #fff;
+	text-align: right;
+	font-size: 72px;
+	line-height: 108px;
+	font-weight: normal;
+	font-style: normal;
+	width: 421px;
+	height: 219px;
+	font-family: 'Reem Kufi';
+	margin-left: 132px;
+}
+
+.info-text {
+	color: white;
+	text-align: right;
+	font-size: 30px;
+	line-height: 36px;
+	padding-right: 30px;
+	font-weight: 500;
+	margin-top: 40px
+}
+
+#parte2-info-necessarias {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.img-precisamos {
+	width: auto;
+	margin-top: 82px
+}
+
+.info-precisamos {
+	color: #F24D5D;
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 75px;
+	text-align: center;
+}
+
+.botao-agendar {
+	width: 211px;
+	height: 64.16px;
+	background: #F24D5D;
+	border-radius: 15px;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.botao-agendar a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#incluso-hospedagem {
+	margin-top: 45px;
+	width: 100%;
+	height: 801px;
+	left: 0px;
+	top: 1937px;
+	background: #F24D5D;
+}
+
+.oque-esta-incluso {
+	padding-top: 48px;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.lista1 {
+	float: left;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 60px;
+	color: #FFFFFF;
+	margin-left: 10%;
+	margin-top: 90px;
+}
+
+.lista2 {
+	float: right;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 60px;
+	color: #FFFFFF;
+	margin-top: 90px;
+	margin-right: 10%;
+}
+
+#regras {
+	width: 100%;
+	height: 750px;
+	background-color: #F0F1F1;
+}
+
+.regras-da-casa {
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 60px;
+	color: #F24D5D;
+	padding-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.reto {color: #57B855;}
+
+.blocos{
+	margin-left: 10%;
+	display: block;
+}
+
+.bloco1-pgt {
+	margin-left: 40	px;
+	width: 410px;
+	height: 340px;
+	float: left;
+}
+
+.bloco2-pgt {
+	margin-left: 40px;
+	width: 410px;
+	height: 340px;
+	float: left;
+}
+
+.bloco3-pgt {
+	margin-left: 40px;
+	width: 410px;
+	height: 340px;
+	float: left;
+}
+
+.estrutura-area{
+	width: 100%;
+	clear: both;
+}
+
+.venha-conhecer {
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 60px;
+	padding: 30px 2%;
+	text-align: right;
+	color: #F24D5D;
+	margin-left: 50%;
+}
+
+.Estrutura-button {
+	background: #F24D5D;
+	width: 197.37px;
+	height: 64.16px;
+	margin-top: -10px;
+	margin-left: 85%;
+	border-radius: 15px;
+	border: none;
+	font-family: 'Lato';
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+
+.Estrutura-button a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 1440px){
+	.blocos{margin-left: 4%;}
+	
+	.bloco1-pgt {margin-left: 0px;}
+	
+	.bloco2-pgt {margin-left: 20px;}
+	
+	.bloco3-pgt {margin-left: 20px;}
+
+	#retangulorosa {margin-left: 55%;}
+
+	.venha-conhecer {margin-left: 42%;}
+
+	.Estrutura-button{margin-left: 81%;}
+}
+
+@media screen and (max-width: 1390px){
+	.blocos{margin-left: 0%;}
+	.blocos img {margin: 0 0px;}
+
+	.bloco1-pgt {
+		width: 33%;
+		float: left;
+		height: auto;
+	}
+	
+	.bloco2-pgt {
+		width: 33%;
+		height: auto;
+		float: left;
+	}
+	
+	.bloco3-pgt {
+		width: 33%;
+		height: auto;
+		float: left;
+	}
+	
+	#retangulorosa {margin-left: 40%;}
+
+	.venha-conhecer{margin-left: 40%;}
+
+	.Estrutura-button{margin-left: 80%;}
+}
+
+/* ESTRUTURA: Bruno Nogueira */
+
+.foto-capa-estrutura {
+	width: 100%;
+    height: 1000px;
+    padding: 10px 0%;
+    background-image: url('../imagens/viagem-cao 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-estrutura{
+    width: 100%;
+    font-size: 17px;
+}       
+
+.logo-estrutura {
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin-left: -18px;
+    margin-top: 15px;
+    background-image: url('../imagens/logo-branca.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;     
+}
+
+.header-estrutura a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-estrutura a:hover{color: #F24D5D;}
+
+.paginas-estrutura{
+	float: left;
+	margin-top: 65px;
+}
+
+.paginas-estrutura a{
+	padding:0 25px;
+	margin-top: 65px;
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+.login-estrutura{
+	float: right;
+	margin-top: 65px;
+	margin-right: 80px;
+}
+
+.login-estrutura a{
+	margin-top: 65px;
+	list-style-type: none;
+	padding:0 15px;
+}
+
+#retangulo-capa-pgt {
+    width: 585px;
+    height: 350px;
+	margin-top: -700px;
+	margin-left: 10%;
+    background: #FF8E36;
+    border-radius: 10px;
+}
+
+.estilo-texto-capa-pgt {
+    color: #fff;
+	padding: 20% 0;
+    text-align: center;
+    font-size: 72px;
+    line-height: 108px;
+    font-weight: normal;
+    font-family: 'Reem Kufi';
+}
+
+.introducao{
+	margin-top:350px;
+	width: 100%;
+	background-color: #F0F1F1;
+	height: 1000px;
+}
+
+.img-Elipse{
+	position: absolute;
+	width: 900px;
+	height: 700px;
+	margin-top: -558px;
+	z-index: 1;
+}
+
+.Elipse-text {
+	position: relative;
+	width: 683px;
+	height: 558px;
+	top: 80px;
+	left: 5%;
+	font-family: 'Lato';
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+	z-index: 2;
+}
+
+.img-cao-flor{
+	position: relative;
+	width: 500px;
+	height: 700px;
+    margin-top: -500px;
+    margin-left: 61%;
+	z-index: 1;
+}
+
+.hotel{
+	width: 100%;
+	background-color: #F0F1F1;
+	height: 1000px;
+}
+
+.hotel h1{
+	text-align: center;
+	font-family: 'Reem Kufi';
+	font-size: 40px;
+	line-height: 96px;
+	color: #4393D8;
+	margin-top: -100px;
+}
+
+.hotel-text {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 45px;
+	letter-spacing: 0.005em;
+	color: #000000;
+	float: left;
+	margin-top: 150px;
+	margin-left: 7%;	
+}
+
+.img-Elipse7 img{
+	float: right;
+	margin-top: -550px;
+	margin-left: 60%;
+}
+
+.img-Elipse7 img{
+    width: auto;
+    height: auto; 
+}
+
+.duvida{
+	clear: both;
+	width: 100%;
+	background-color: #F0F1F1;
+	height: 950px;
+}
+
+.lazer{
+	text-align: center;
+	margin-top: -80px;
+}
+
+.lazer img {
+	width: auto;
+	height: auto;
+}
+
+.parque {
+    float: left;
+	padding: 0 4.5%;
+}
+
+.parque img {
+	width: auto;
+	height: auto;
+}
+
+.piscina {
+    float: right;
+	padding: 0 4.5%;
+}
+
+.piscina img {
+	width: auto;
+	height: auto;
+}
+
+.suporte {
+	clear: both;
+	font-family: 'Lato';
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	color: #4393D8;
+	margin-top: 350px;
+}
+
+.duvida button {
+    width: 170px;
+    height: 64px;
+    cursor: pointer;
+    background: #4393D8;
+    border-radius: 20px;
+	margin-top: 20px;
+}
+
+.duvida button a {
+	text-decoration: none;
+    color: #FFF;
+}
+
+@media screen and (max-width: 1390px){
+	.piscina {
+		margin-top: -316px;
+	}	
+}
+
+/* AJUDA: Tiago */ 
+
+.header-ajuda{
+    width: 100%;
+    font-size: 17px;
+}       
+
+.banner-ajuda {
+    width: 100%;
+    height: 1000px;
+    padding: 10px 0%;
+    background-image: url('../imagens/capa-ajuda.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-ajuda {
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin-left: -18px;
+    margin-top: 15px;
+    background-image: url('../imagens/logo-branca.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;     
+}
+
+.header-ajuda a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header-ajuda a:hover{color: #F24D5D;}
+
+.paginas-contato{
+	float: left;
+	margin-top: 65px;
+}
+
+.paginas-contato a{
+	padding:0 25px;
+	margin-top: 65px;
+	list-style-type: none;
+	margin-left: -20px;
+}
+
+.login-contato{
+	float: right;
+	margin-top: 65px;
+	margin-right: 80px;
+}
+
+.login-contato a{
+	margin-top: 65px;
+	list-style-type: none;
+	padding:0 15px;
+}
+
+#retangulo {
+    position: relative;
+    width: 535px;
+    height: 316px;
+	top: -380px;
+	margin-left: 10%;
+    background: #FFCD1E;
+	margin-top: -316px;
+}
+
+.text {
+    position: relative;
+    width: 370px;
+    left: 80px;
+    top: 60px;
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+/*pq ela n interfere dentor da imagem ?*/
+
+form {
+    position: absolute;
+    width: 417px;
+    height: 658px;
+    left: 55%;
+    top: 220px;
+}
+
+.input-ajuda,
+textarea {
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 8px;
+    width: 410.79px;
+    height: 69.19px;
+    display: block;
+    margin: 30px auto;
+    padding-left: 10px;
+    border: none;
+    color: white;
+}
+
+.fale-conosco-form {
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFCD1E;
+}
+
+textarea {
+    height: 180px;
+    padding-top: 10px;
+}
+
+.input-ajuda::placeholder {
+    color: #fff;
+    font-family: lato;
+}
+
+#mensagem {
+    color: #fff;
+    font-family: lato;
+}
+
+button {
+    display: block;
+    margin: -20px auto;
+    background: #FFCD1E;
+    border-radius: 8px;
+    width: 122px;
+    height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    border: NONE;
+}
+
+/* CADASTRO: Guilherme */ 
+
+.logo-pg{text-align: center;}
+
+.logoanimal {
+	height: 100px;
+	width: 140px;
+	margin-top: 10px;
+}
+
+.pg-cadastro{
+	background-color: #FFF;
+	text-align: center;
+	padding: 80px 0;
+	border-radius: 10px;
+	width: 25%;
+	height: auto;
+	margin-left: 37.5%;
+	margin-top: 30px;
+}
+
+.pg-cadastro h1{
+	font-family: 'Reem Kufi', sans-serif;
+	margin-top: -50px;
+}
+
+.pg-cadastro .input{
+	padding: 20px 10px;
+	background-color: #dc143c;
+	font-size: 15px;
+	border: none;
+	color: #FFF;
+	border-radius: 10px;
+	width: 85%;
+}
+
+#cadastro{
+	font-family: 'Reem Kufi', sans-serif;
+	background-color: #dc143c;
+	text-align: center;
+	padding: 10px;
+	width: 50%;
+	border-radius: 20px;
+	color: #FFF;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+	
+#cadastro:hover{
+	color: #dc143c;
+	background-color: white;
+	border: 1px solid #dc143c;;
+}
+
+.pg-cadastro h3{
+	font-family: 'Lato', sans-serif;
+	margin: 10px 0;
+}
+
+::-webkit-input-placeholder{
+	font-family: 'Lato', sans-serif;
+	color: black; 
+	opacity: 0.8;
+}
+
+.icon-cadastro{width: 100%;}
+
+.icon-cadastro img{		
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	margin: 0 15px;
+}	
+	
+#login{
+	border: none;
+	cursor: pointer;
+	clear: both;
+	margin-top: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1440px){	
+	.logoanimal {
+		margin-top: 2px;
+	}
+	
+	.pg-cadastro{
+		height: 83%;
+		margin-top: 5px;
+	}
+
+	.pg-cadastro h1{
+		margin-top: -65px;
+	}
+}
+
+/* LOGIN: Gabriel */
+
+.logo-lg{text-align: center;}
+
+.logo-login {
+	height: 100px;
+	width: 140px;
+	margin-top: 20px;
+}
+
+.pg-login{
+	background-color: #FFF;
+	text-align: center;
+	padding: 80px 0;
+	border-radius: 10px;
+	width: 23%;
+	height: auto;
+	margin-left: 38.5%;
+	margin-top: 20px;
+}
+
+#input{
+	padding: 17px 10px;
+	background-color: #dc143c;
+	font-size: 15px;
+	border: none;
+	color: #FFF;
+	border-radius: 10px;
+	width: 90%;
+}
+
+.pg-login h1{
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: bold;
+	margin-top: -20px;
+}
+
+#esqueci-senha{
+	cursor: pointer;
+	font-family: 'Lato';
+	color: #000000;
+	margin: 15px 0;
+	margin-left: -45%;
+}
+
+.pg-login button{
+	font-family: 'Reem Kufi', sans-serif;
+	border: none;
+	padding: 10px;
+	width: 40%;
+	color: #FFF;
+	cursor: pointer;
+	background: #dc143c;
+	border-radius: 20px;
+}
+
+.pg-login button:hover {
+	color: #dc143c;
+   	background-color:white;
+	border: 1px solid #dc143c;
+}
+
+.icon-login{width: 100%;}
+
+.icon-login img{		
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	margin-top: -15px;
+	margin: 0 10px;
+}	
+
+.cadastro-pglogin{
+	border: none;
+	cursor: pointer;
+	clear: both;
+	color: black;
+	text-decoration: none;
+	margin-top: -5000px;
+}
+
+@media screen and (max-width: 1440px){		
+	.pg-login{
+		width: 25%;
+		margin-left: 37%;
+		height: 75%;
+	}
+}
