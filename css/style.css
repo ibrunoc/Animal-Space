@@ -686,8 +686,9 @@ footer{
 .reto {color: #57B855;}
 
 .blocos{
-	margin-left: 10%;
-	display: block;
+	display: flex;
+    	justify-content: center;
+    	align-items: center;
 }
 
 .bloco1-pgt {
