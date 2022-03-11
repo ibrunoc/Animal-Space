@@ -749,14 +749,6 @@ footer{
 }
 
 @media screen and (max-width: 1440px){
-	.blocos{margin-left: 4%;}
-	
-	.bloco1-pgt {margin-left: 0px;}
-	
-	.bloco2-pgt {margin-left: 20px;}
-	
-	.bloco3-pgt {margin-left: 20px;}
-
 	#retangulorosa {margin-left: 55%;}
 
 	.venha-conhecer {margin-left: 42%;}
@@ -765,27 +757,6 @@ footer{
 }
 
 @media screen and (max-width: 1390px){
-	.blocos{margin-left: 0%;}
-	.blocos img {margin: 0 0px;}
-
-	.bloco1-pgt {
-		width: 33%;
-		float: left;
-		height: auto;
-	}
-	
-	.bloco2-pgt {
-		width: 33%;
-		height: auto;
-		float: left;
-	}
-	
-	.bloco3-pgt {
-		width: 33%;
-		height: auto;
-		float: left;
-	}
-	
 	#retangulorosa {margin-left: 40%;}
 
 	.venha-conhecer{margin-left: 40%;}
