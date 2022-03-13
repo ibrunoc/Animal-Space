@@ -445,10 +445,6 @@ footer{
 .info6, h2{font-size: 30px;}
 
 @media only screen and (max-width:720px){
-		.paginas, .login{
-			display: none;
-		}
-
         .texto-capa h1,
         .formato{
             margin-top: 40px;
@@ -486,6 +482,14 @@ footer{
 }
 
 @media only screen and (max-width:1100px){
+	.paginas, .login{
+		display: none;
+	}
+
+	nav.mobile-menu{
+		display: block;
+	}
+	
 	.capa {
 		display: none;
 	}
