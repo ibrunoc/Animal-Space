@@ -67,6 +67,46 @@ main {
 
 .header-inicio .paginas,.login, li a:hover{color: #F24D5D;}
 
+nav.mobile-menu{
+	cursor: pointer;
+	display: none;
+	width: 32px;
+	float: right;
+	margin: 60px 20px;
+	height: 32px;
+	background-image: url('../imagens/menu.png');
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+nav.mobile-menu ul{
+	list-style-type: none;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 120px;
+	border-bottom:4px solid #57B855;
+	position: absolute;
+	text-align: center;
+	background-color: #F0F1F1;
+}
+
+nav.mobile-menu ul li{
+	padding:8px 0%;
+	width: 100%;
+	transition: 0.4s;
+	border-bottom: 1px solid black;
+}
+
+nav.mobile-menu ul li:hover{
+	background-color: white;
+}
+
+nav.mobile-menu ul li a{
+	color: black;
+	text-decoration: none;	
+}
+
 section.banner{
 	width: 100%;
 	height: auto;
