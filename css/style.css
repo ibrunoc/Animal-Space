@@ -1185,199 +1185,228 @@ footer{
                 cursor: pointer;
                 border: NONE;
             }
-/* CADASTRO: Guilherme */
 
-.logo-pg {
-    text-align: center;
+/* CADASTRO: Guilherme */ 
+
+.pagina-de-cadastro{
+	text-align: center;
 }
 
 .logoanimal {
-    height: 100px;
-    width: 140px;
-    margin-top: 10px;
+	height: 100px;
+	width: 140px;
+	margin-top: 10px;
 }
 
-.pg-cadastro {
-    background-color: #FFF;
-    text-align: center;
-    padding: 80px 0;
-    border-radius: 10px;
-    width: 25%;
-    height: auto;
-    margin-left: 37.5%;
-    margin-top: 30px;
+.quadro{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-.pg-cadastro h1 {
-    font-family: 'Reem Kufi', sans-serif;
-    margin-top: -50px;
+.pg-cadastro{
+	background-color: #FFF;
+	text-align: center;
+	padding: 80px 0;
+	border-radius: 10px;
+	width: 25%;
+	min-width: 20%;
+	height: auto;
+	margin-top: 30px;	
 }
 
-.pg-cadastro .input {
-    padding: 20px 10px;
-    background-color: #dc143c;
-    font-size: 15px;
-    border: none;
-    color: #FFF;
-    border-radius: 10px;
-    width: 85%;
+.pg-cadastro h1{
+	font-family: 'Reem Kufi', sans-serif;
+	margin-top: -50px;
 }
 
-#cadastro {
-    font-family: 'Reem Kufi', sans-serif;
-    background-color: #dc143c;
-    text-align: center;
-    padding: 10px;
-    width: 50%;
-    border-radius: 20px;
-    color: #FFF;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 0px;
+.pg-cadastro .input{
+	padding: 20px 10px;
+	background-color: #dc143c;
+	font-size: 15px;
+	border: none;
+	color: #FFF;
+	border-radius: 10px;
+	width: 85%;
 }
 
-#cadastro:hover {
-    color: #dc143c;
-    background-color: white;
-    border: 1px solid #dc143c;
-    ;
+#cadastro{
+	font-family: 'Reem Kufi', sans-serif;
+	background-color: #dc143c;
+	text-align: center;
+	padding: 10px;
+	width: 50%;
+	border-radius: 20px;
+	color: #FFF;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+	
+#cadastro:hover{
+	color: #dc143c;
+	background-color: white;
+	border: 1px solid #dc143c;;
 }
 
-.pg-cadastro h3 {
-    font-family: 'Lato', sans-serif;
-    margin: 10px 0;
+.pg-cadastro h3{
+	font-family: 'Lato', sans-serif;
+	margin: 10px 0;
 }
 
-::-webkit-input-placeholder {
-    font-family: 'Lato', sans-serif;
-    color: black;
-    opacity: 0.8;
+::-webkit-input-placeholder{
+	font-family: 'Lato', sans-serif;
+	color: black; 
+	opacity: 0.8;
 }
 
-.icon-cadastro {
-    width: 100%;
+.icon-cadastro{width: 100%;}
+
+.icon-cadastro img{		
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	margin: 0 15px;
+}	
+	
+#login{
+	border: none;
+	cursor: pointer;
+	clear: both;
+	margin-top: 20px;
+	color: black;
+	text-decoration: none;
 }
 
-.icon-cadastro img {
-    width: 50px;
-    cursor: pointer;
-    height: 50px;
-    margin: 0 15px;
-}
+@media screen and (min-width: 480px){	
+	@media screen and (max-width: 1100px){	
+		.pg-cadastro{
+			width: 70%;
+		}
+	}
+}	
 
-#login {
-    border: none;
-    cursor: pointer;
-    clear: both;
-    margin-top: 20px;
-    color: black;
-    text-decoration: none;
-}
+@media screen and (min-width: 1101px){
+	@media screen and (max-width: 1440px){	
+		.logoanimal {
+			margin-top: 2px;
+		}
 
-@media screen and (max-width: 1440px) {
-    .logoanimal {
-        margin-top: 2px;
-    }
-    .pg-cadastro {
-        height: 83%;
-        margin-top: 5px;
-    }
-    .pg-cadastro h1 {
-        margin-top: -65px;
-    }
-}
+		.pg-cadastro{
+			width: 35%;
+			min-width: 40%;
+			height: 83%;
+			margin-top: 10px;
+		}
 
+		.pg-cadastro h1{
+			margin-top: -65px;
+		}
+	}
+}	
 
 /* LOGIN: Gabriel */
 
-.logo-lg {
-    text-align: center;
-}
+.logo-lg{text-align: center;}
 
 .logo-login {
-    height: 100px;
-    width: 140px;
-    margin-top: 20px;
+	height: 100px;
+	width: 140px;
+	margin-top: 20px;
 }
 
-.pg-login {
-    background-color: #FFF;
-    text-align: center;
-    padding: 80px 0;
-    border-radius: 10px;
-    width: 23%;
-    height: auto;
-    margin-left: 38.5%;
-    margin-top: 20px;
+.pg-login{
+	background-color: #FFF;
+	text-align: center;
+	padding: 80px 0;
+	border-radius: 10px;
+	width: 23%;
+	height: auto;
+	margin-top: 20px;
 }
 
-#input {
-    padding: 17px 10px;
-    background-color: #dc143c;
-    font-size: 15px;
-    border: none;
-    color: #FFF;
-    border-radius: 10px;
-    width: 90%;
+#input{
+	padding: 17px 10px;
+	margin-top: 5px;
+	background-color: #dc143c;
+	font-size: 15px;
+	border: none;
+	color: #FFF;
+	border-radius: 10px;
+	width: 90%;
 }
 
-.pg-login h1 {
-    font-family: 'Reem Kufi';
-    font-style: normal;
-    font-weight: bold;
-    margin-top: -20px;
+.pg-login h1{
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: bold;
+	margin-top: -45px;
 }
 
-#esqueci-senha {
-    cursor: pointer;
-    font-family: 'Lato';
-    color: #000000;
-    margin: 15px 0;
-    margin-left: -45%;
+#esqueci-senha{
+	cursor: pointer;
+	font-family: 'Lato';
+	color: #000000;
+	float: left;
+	font-size: 13px;
+	padding: 0 7%;
+	margin: 20px 0;
 }
 
-.pg-login button {
-    font-family: 'Reem Kufi', sans-serif;
-    border: none;
-    padding: 10px;
-    width: 40%;
-    color: #FFF;
-    cursor: pointer;
-    background: #dc143c;
-    border-radius: 20px;
+.pg-login button{
+	clear: both;
+	font-family: 'Reem Kufi', sans-serif;
+	border: none;
+	padding: 10px;
+	margin-top: 5px;
+	width: 40%;
+	color: #FFF;
+	cursor: pointer;
+	background: #dc143c;
+	border-radius: 20px;
 }
 
 .pg-login button:hover {
-    color: #dc143c;
-    background-color: white;
-    border: 1px solid #dc143c;
+	color: #dc143c;
+   	background-color:white;
+	border: 1px solid #dc143c;
 }
 
-.icon-login {
-    width: 100%;
+.icon-login{width: 100%;}
+
+.icon-login img{		
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	margin-top: -15px;
+	margin: 0 10px;
+}	
+
+.cadastro-pglogin{
+	border: none;
+	cursor: pointer;
+	clear: both;
+	color: black;
+	text-decoration: none;
+	margin-top: -5000px;
 }
 
-.icon-login img {
-    width: 50px;
-    cursor: pointer;
-    height: 50px;
-    margin-top: -15px;
-    margin: 0 10px;
-}
-
-.cadastro-pglogin {
-    border: none;
-    cursor: pointer;
-    clear: both;
-    color: black;
-    text-decoration: none;
-    margin-top: -5000px;
-}
-
-@media screen and (max-width: 1440px) {
-    .pg-login {
-        width: 25%;
-        margin-left: 37%;
-        height: 75%;
-    }
-}
+@media screen and (min-width: 480px){	
+	@media screen and (max-width: 1100px){	
+		.pg-login{
+			width: 70%;
+		}
+	}
+}	
+	
+	@media screen and (min-width: 1101px){
+	@media screen and (max-width: 1440px){	
+		.pg-login{
+			width: 35%;
+			min-width: 40%;
+			height: 83%;
+			margin-top: 10px;
+		}	
+	}
+}	
