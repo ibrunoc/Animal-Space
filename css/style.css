@@ -85,8 +85,9 @@ nav.mobile-menu ul{
 	width: 100%;
 	left: 0;
 	top: 120px;
-	border-bottom:4px solid #57B855;
+	border-bottom:4px solid #F24D5D;
 	position: absolute;
+    z-index: 5;
 	text-align: center;
 	background-color: #F0F1F1;
 }
@@ -594,270 +595,450 @@ footer{
     }
 }
 
- /* COMO FUNCIONA: Tiago  */
-            
-            .foto-capa2 {
-                width: 100%;
-                height: 1000px;
-                padding: 10px 0%;
-                background-image: url('../imagens/fundo-capa.png');
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
+/* COMO FUNCIONA: Tiago  */
+    
+    .foto-capa2 {
+        width: 100%;
+        height: 1000px;
+        padding: 10px 0%;
+        background-image: url('../imagens/fundo-capa.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .header-funciona {
+        width: 100%;
+        font-size: 17px;
+    }
+    
+    .logo-funciona {
+        width: 250px;
+        height: 100px;
+        float: left;
+        margin-left: -18px;
+        margin-top: 15px;
+        background-image: url('../imagens/logo-branca.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .header-funciona a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .header-funciona a:hover {
+        color: #F24D5D;
+    }
+    
+    .paginas-funciona {
+        float: left;
+        margin-top: 65px;
+    }
+    
+    .paginas-funciona a {
+        padding: 0 25px;
+        margin-top: 65px;
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    
+    .login-funciona {
+        float: right;
+        margin-top: 65px;
+        margin-right: 80px;
+    }
+    
+    .login-funciona a {
+        margin-top: 65px;
+        list-style-type: none;
+        padding: 0 15px;
+    }
+    
+    nav.mobile-menu-branco {
+        cursor: pointer;
+        display: none;
+        width: 32px;
+        float: right;
+        margin: 60px 20px;
+        height: 32px;
+        background-image: url('../imagens/menu-branco.png');
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    
+    nav.mobile-menu-branco ul {
+        list-style-type: none;
+        display: none;
+        width: 100%;
+        left: 0;
+        top: 120px;
+        border-bottom: 4px solid #F24D5D;
+        position: absolute;
+        z-index: 5;
+        text-align: center;
+        background-color: #F0F1F1;
+    }
+    
+    nav.mobile-menu-branco li {
+        padding: 8px 0%;
+        width: 100%;
+        transition: 0.4s;
+        border-bottom: 1px solid black;
+    }
+    
+    nav.mobile-menu-branco li:hover {
+        background-color: white;
+    }
+    
+    nav.mobile-menu-branco ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    #retangulorosa {
+        position: relative;
+        width: 585px;
+        height: 437px;
+        background: #F24D5D;
+        border-radius: 20px;
+        float: right;
+        top: 300px;
+        margin-right: 5%;
+        margin-left: 500px;
+    }
+    
+    .style-text {
+        margin-top: 31px;
+        color: #fff;
+        text-align: right;
+        font-size: 72px;
+        line-height: 108px;
+        font-weight: normal;
+        font-style: normal;
+        width: 421px;
+        height: 219px;
+        font-family: 'Reem Kufi';
+        margin-left: 132px;
+    }
+    
+    .info-text {
+        color: white;
+        text-align: right;
+        font-size: 30px;
+        line-height: 36px;
+        padding-right: 30px;
+        margin-top: 40px
+    }
+    
+    #parte2-info-necessarias {
+        text-align: center;
+    }
+    
+    .img-precisamos {
+        width: auto;
+        margin-top: 50px;
+    }
+    
+    .info-precisamos {
+        margin-top: 30px;
+        color: #F24D5D;
+        font-family: 'Reem Kufi';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+    }
+    
+    .botao-agendar {
+        width: 211px;
+        height: 64.16px;
+        background: #F24D5D;
+        border-radius: 15px;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    
+    .botao-agendar a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    #incluso-hospedagem {
+        bottom: 400px;
+        width: 100%;
+        height: 801px;
+        background: #F24D5D;
+    }
+    
+    .oque-esta-incluso {
+        padding-top: 48px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .lista1 {
+        float: left;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 60px;
+        color: #FFFFFF;
+        margin-left: 10%;
+        margin-top: 90px;
+    }
+    
+    .lista2 {
+        float: right;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 60px;
+        color: #FFFFFF;
+        margin-top: 90px;
+        margin-right: 10%;
+    }
+    
+    #regras {
+        bottom: 400px;
+        width: 100%;
+        height: 750px;
+        background-color: #F0F1F1;
+    }
+    
+    .regras-da-casa {
+        font-family: 'Reem Kufi';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+        color: #F24D5D;
+        padding-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .reto {
+        color: #57B855;
+    }
+    
+    .blocos {
+        align-items: center;
+        width: 100%;
+        height: 150PX;
+    }
+    
+    .bloco1-pgt {
+        margin-left: 6%;
+        width: 25%;
+    }
+    
+    .bloco2-pgt {
+        margin-left: 6%;
+        width: 25%;
+    }
+    
+    .bloco3-pgt {
+        margin-left: 6%;
+        width: 25%;
+    }
+    
+    .estrutura-area {
+        position: relative;
+        width: 100%;
+        clear: both;
+    }
+    
+    .venha-conhecer {
+        font-family: 'Reem Kufi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 60px;
+        padding: 30px 2%;
+        text-align: right;
+        color: #F24D5D;
+        margin-left: 50%;
+    }
+    
+    .Estrutura-button {
+        background: #F24D5D;
+        width: 197.37px;
+        height: 64.16px;
+        float: right;
+        margin-right: 5%;
+        border: none;
+        font-family: 'Lato';
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    
+    .Estrutura-button a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    @media only screen and (max-width:480px) {
+    .paginas-funciona,
+    .login-funciona {
+        display: none;
+    }
+    #retangulorosa {
+        position: relative;
+        width: 100%;
+        height: background: #F24D5D;
+        border-radius: 0;
+        clear: right;
+        margin: 0;
+    }
+    .style-text {
+        text-align: center;
+        margin-top: 10;
+        color: #fff;
+        clear: both;
+        font-size: 50px;
+        line-height: 60px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .info-text {
+        text-align: center;
+        padding: 0;
+        margin-top: 0;
+    }
+    .info-precisamos {
+        margin-top: 30px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .img-precisamos {
+        width: 90%;
+    }
+    .botao-agendar {
+        width: 30%;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+    .lista1 {
+        font-size: auto;
+        margin-left: 5%;
+    }
+    .lista2 {
+        margin-top: -2%;
+        font-size: auto;
+        margin: 0;
+        float: left;
+        margin-left: 5%;
+    }
+    #incluso-hospedagem {
+        bottom: 400px;
+        width: 100%;
+        height: 1300px;
+        background: #F24D5D;
+    }
+    .oque-esta-incluso {
+        padding-top: 8px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .regras-da-casa {
+        font-size: 30px;
+        line-height: 70px
+    }
+    .venha-conhecer {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0;
+        clear: both;
+        text-align: center;
+        color: #F24D5D;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .Estrutura-button {
+        clear: both;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 20px;
+        width: 30%;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+}
+    @media only screen and (min-width:481px) {
+        @media only screen and (max-width: 1100px) {
+            .paginas-funciona, .login-funciona {
+                display: none;
             }
-            
-            .header-funciona {
-                width: 100%;
-                font-size: 17px;
+            nav.mobile-menu-branco {
+                display: block;
             }
-            
-            .logo-funciona {
-                width: 250px;
-                height: 100px;
-                float: left;
-                margin-left: -18px;
-                margin-top: 15px;
-                background-image: url('../imagens/logo-branca.png');
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
+            .venha-conhecer {
+                padding-right: 3%;
+                margin-left: 20%;
             }
-            
-            .header-funciona a {
-                color: #fff;
-                text-decoration: none;
+            .lista1 {
+                font-size: 15px;
+                margin-left: 5%;
             }
-            
-            .header-funciona a:hover {
-                color: #F24D5D;
+            .lista2 {
+                font-size: 15px;
+                margin-right: 3%;
             }
-            
-            .paginas-funciona {
-                float: left;
-                margin-top: 65px;
-            }
-            
-            .paginas-funciona a {
-                padding: 0 25px;
-                margin-top: 65px;
-                list-style-type: none;
-                margin-left: -20px;
-            }
-            
-            .login-funciona {
-                float: right;
-                margin-top: 65px;
-                margin-right: 80px;
-            }
-            
-            .login-funciona a {
-                margin-top: 65px;
-                list-style-type: none;
-                padding: 0 15px;
-            }
-            
             #retangulorosa {
-                position: relative;
-                width: 585px;
-                height: 437px;
                 background: #F24D5D;
                 border-radius: 20px;
                 float: right;
                 top: 300px;
-                margin-right: 5%;
-                margin-left: 500px;
+                margin-right: 2%;
+                margin: auto;
             }
-            
-            .style-text {
-                margin-top: 31px;
-                color: #fff;
-                text-align: right;
-                font-size: 72px;
-                line-height: 108px;
-                font-weight: normal;
-                font-style: normal;
-                width: 421px;
-                height: 219px;
-                font-family: 'Reem Kufi';
-                margin-left: 132px;
-            }
-            
             .info-text {
-                color: white;
-                text-align: right;
-                font-size: 30px;
-                line-height: 36px;
-                padding-right: 30px;
-                margin-top: 40px
-            }
-            
-            #parte2-info-necessarias {
-                text-align: center;
-            }
-            
-            .img-precisamos {
-                width: auto;
-                margin-top: 50px;
-            }
-            
-            .info-precisamos {
-                margin-top: 30px;
-                color: #F24D5D;
-                font-family: 'Reem Kufi';
-                font-style: normal;
-                font-weight: bold;
-                font-size: 50px;
-                line-height: 75px;
-                text-align: center;
-            }
-            
-            .botao-agendar {
-                width: 211px;
-                height: 64.16px;
-                background: #F24D5D;
-                border-radius: 15px;
-                border: none;
-                margin-top: 50px;
-                margin-bottom: 50px;
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: normal;
-                font-size: 24px;
-                line-height: 29px;
-                color: #FFFFFF;
-            }
-            
-            .botao-agendar a {
-                color: #FFFFFF;
-                text-decoration: none;
-            }
-            
-            #incluso-hospedagem {
-                bottom: 400px;
-                width: 100%;
-                height: 801px;
-                background: #F24D5D;
-            }
-            
-            .oque-esta-incluso {
-                padding-top: 48px;
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: bold;
-                font-size: 50px;
-                line-height: 60px;
-                text-align: center;
-                color: #FFFFFF;
-            }
-            
-            .lista1 {
-                float: left;
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: normal;
-                font-size: 25px;
-                line-height: 60px;
-                color: #FFFFFF;
-                margin-left: 10%;
-                margin-top: 90px;
-            }
-            
-            .lista2 {
-                float: right;
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: normal;
-                font-size: 25px;
-                line-height: 60px;
-                color: #FFFFFF;
-                margin-top: 90px;
-                margin-right: 10%;
-            }
-            
-            #regras {
-                bottom: 400px;
-                width: 100%;
-                height: 750px;
-                background-color: #F0F1F1;
-            }
-            
-            .regras-da-casa {
-                font-family: 'Reem Kufi';
-                font-style: normal;
-                font-weight: bold;
-                font-size: 50px;
-                line-height: 60px;
-                color: #F24D5D;
-                padding-top: 50px;
-                margin-left: 30px;
-                margin-bottom: 20px;
-            }
-            
-            .reto {
-                color: #57B855;
-            }
-            
-            .blocos {
-                align-items: center;
-                width: 100%;
-                height: 150PX;
-            }
-            
-            .bloco1-pgt {
-                margin-left: 6%;
-                width: 25%;
-            }
-            
-            .bloco2-pgt {
-                margin-left: 6%;
-                width: 25%;
-            }
-            
-            .bloco3-pgt {
-                margin-left: 6%;
-                width: 25%;
-            }
-            
-            .estrutura-area {
                 position: relative;
-                width: 100%;
+                left: 30px;
+                color: white;
                 clear: both;
-            }
-            
-            .venha-conhecer {
-                font-family: 'Reem Kufi';
-                font-style: normal;
-                font-weight: normal;
-                font-size: 50px;
-                line-height: 60px;
-                padding: 30px 2%;
                 text-align: right;
-                color: #F24D5D;
-                margin-left: 50%;
+                font-size: 25px;
+                line-height: 36px;
+                width: 550px;
             }
+        }
+    }
+@media only screen and (max-width:1100px){
+    .paginas-funciona, .login-funciona{
+        display: none;
+    }
             
-            .Estrutura-button {
-                background: #F24D5D;
-                width: 197.37px;
-                height: 64.16px;
-                float: right;
-                margin-right: 5%;
-                border: none;
-                font-family: 'Lato';
-                font-size: 24px;
-                line-height: 29px;
-                color: #FFFFFF;
-            }
-            
-            .Estrutura-button a {
-                text-decoration: none;
-                color: #FFFFFF;
-            }
+    nav.mobile-menu-branco{
+        display: block;
+    }
+}
 
-
-/* ESTRUTURA: Bruno Nogueira */
+/* ESTRUTURA: Bruno Nogueira // Bruno Costa */
 
 .foto-capa-estrutura {
+    position: relative;
     width: 100%;
     height: 1000px;
     padding: 10px 0%;
@@ -868,6 +1049,8 @@ footer{
 }
 
 .header-estrutura {
+    position: relative;
+    z-index: 9;
     width: 100%;
     font-size: 17px;
 }
@@ -918,10 +1101,10 @@ footer{
 }
 
 #retangulo-capa-pgt {
-    width: 585px;
-    height: 350px;
-    margin-top: -700px;
-    margin-left: 10%;
+    width: 40%;
+    min-width: 450px;
+    margin-top: 250px;
+    margin-left: 4%;
     background: #FF8E36;
     border-radius: 10px;
 }
@@ -937,26 +1120,29 @@ footer{
 }
 
 .introducao {
-    margin-top: 350px;
+    position: relative;
     width: 100%;
     background-color: #F0F1F1;
-    height: 1000px;
+    height: 300px;
+}
+
+.width1{
+    float: left;
+    width: 50%;
 }
 
 .img-Elipse {
-    position: absolute;
-    width: 900px;
+    position: relative;
+    width: 850px;
     height: 700px;
-    margin-top: -558px;
     z-index: 1;
 }
 
 .Elipse-text {
     position: relative;
-    width: 683px;
-    height: 558px;
-    top: 80px;
-    left: 5%;
+    width: 150%;
+    margin-top: -665px;
+    margin-left: 40px;
     font-family: 'Lato';
     font-size: 24px;
     line-height: 29px;
@@ -964,19 +1150,26 @@ footer{
     z-index: 2;
 }
 
+.width2{
+    float: left;
+    width: 50%;
+}
+
 .img-cao-flor {
     position: relative;
-    width: 500px;
-    height: 700px;
-    margin-top: -500px;
-    margin-left: 61%;
+    max-width: 50%;
+    min-width: 400px;
+    height: auto; 
+    margin-left: 25%;
+    margin-top: 100px;
     z-index: 1;
 }
 
 .hotel {
+    position: relative;
     width: 100%;
     background-color: #F0F1F1;
-    height: 1000px;
+    height: 1350px;
 }
 
 .hotel h1 {
@@ -985,7 +1178,12 @@ footer{
     font-size: 40px;
     line-height: 96px;
     color: #4393D8;
-    margin-top: -100px;
+    padding-top: 500px;
+}
+
+.width3{
+    float: left;
+    width: 50%;
 }
 
 .hotel-text {
@@ -996,15 +1194,22 @@ footer{
     line-height: 45px;
     letter-spacing: 0.005em;
     color: #000000;
-    float: left;
     margin-top: 150px;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 
-.img-Elipse7 img {
-    float: right;
-    margin-top: -550px;
-    margin-left: 60%;
+.width4{
+    float: left;
+    width: 50%;
+}
+
+.img-Elipse7 {
+    width: 100%;
+    height: 700px;
+    background-image: url('../imagens/Ellipse\ 7.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .img-Elipse7 img {
@@ -1016,47 +1221,54 @@ footer{
     clear: both;
     width: 100%;
     background-color: #F0F1F1;
-    height: 950px;
+    height: auto;
 }
 
 .lazer {
+    width: 100%;
     text-align: center;
     margin-top: -80px;
 }
 
 .lazer img {
-    width: auto;
+    width: 550px;
     height: auto;
 }
 
 .parque {
+    width: 50%;
     float: left;
-    padding: 0 4.5%;
 }
 
 .parque img {
-    width: auto;
+    width: 550px;
     height: auto;
+    float: right;
+    padding: 0 2%;
 }
 
 .piscina {
-    float: right;
-    padding: 0 4.5%;
+    width: 50%;
+    float: left;
 }
 
 .piscina img {
-    width: auto;
+    width: 550px;
     height: auto;
+    padding: 0 2%;
 }
 
 .suporte {
-    clear: both;
     font-family: 'Lato';
     font-size: 40px;
     line-height: 60px;
     text-align: center;
     color: #4393D8;
     margin-top: 350px;
+}
+
+.botao_ajuda{
+    padding: 10px 0 40px 0;
 }
 
 .duvida button {
@@ -1073,21 +1285,145 @@ footer{
     color: #FFF;
 }
 
-@media screen and (max-width: 1390px) {
-    .piscina {
-        margin-top: -316px;
+@media only screen and (max-width:720px){
+    #retangulo-capa-pgt {
+        min-width: 370px;
+    }
+
+    .estilo-texto-capa-pgt{
+        font-size: 55px
+    }
+
+    .img-cao-flor {
+        width: 35%;
+        padding: 0px 2%;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    .lazer img{
+        width: 350px;
+    }
+    
+    .parque img{
+        width: 350px;
+    }
+
+    .piscina img{
+        width: 350px;
     }
 }
 
+@media only screen and (max-width:1100px){
+    .paginas-estrutura, .login-estrutura{
+        display: none;
+    }
+            
+    nav.mobile-menu-branco{
+        display: block;
+    }
+
+    .introducao {
+        height: auto;
+        margin-top: 550px;
+    }
+
+    .hotel {
+        height: auto;
+    }
+
+    .width1{
+        float: none;
+        width: 100%;
+    }
+
+    .img-Elipse {
+        display: none;
+    }
+
+    .Elipse-text {
+        width: 100%;
+        padding: 25px 2%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .width2{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-cao-flor {
+        width: 40%;
+        padding: 0px 2%;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    .img-Elipse7 {
+        display: none;
+    }
+
+    .width3{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hotel-text {
+        float: none;
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+
+    .hotel h1 {
+       padding-top: 20px;
+    }
+    
+    .duvida{
+        padding-top: 150px;
+    }
+
+    .lazer {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .parque {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parque img {
+        float: none;
+        padding: 0 0%;
+    }
+          
+    .piscina {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }    
+
+    .piscina img {
+        padding: 0 0%;
+    }
+
+    .suporte{
+        margin-top: 20px;
+        height: auto;
+    }    
+}
 
    /* AJUDA: Tiago */
             
-            .header-ajuda {
-                width: 100%;
-                font-size: 17px;
-            }
+.header-ajuda {
+    width: 100%;
+    font-size: 17px;
+}
             
-            .banner-ajuda {
+ .banner-ajuda {
                 width: 100%;
                 height: 1000px;
                 padding: 10px 0%;
@@ -1230,7 +1566,17 @@ footer{
                 border: NONE;
             }
 
-/* CADASTRO: Guilherme */ 
+            @media only screen and (max-width:1100px){
+                .paginas-contato, .login-contato{
+                    display: none;
+                }
+                        
+                nav.mobile-menu-branco{
+                    display: block;
+                }
+            }
+
+/* CADASTRO: Guilherme // Bruno Costa */ 
 
 .pagina-de-cadastro{
 	text-align: center;
@@ -1323,7 +1669,15 @@ footer{
 	text-decoration: none;
 }
 
-@media screen and (min-width: 480px){	
+@media screen and (min-width: 250px){	
+	@media screen and (max-width: 480px){	
+		.pg-cadastro{
+			width: 90%;
+		}
+	}
+}
+
+@media screen and (min-width: 481px){	
 	@media screen and (max-width: 1100px){	
 		.pg-cadastro{
 			width: 70%;
@@ -1350,7 +1704,7 @@ footer{
 	}
 }	
 
-/* LOGIN: Gabriel */
+/* LOGIN: Gabriel // Bruno Costa */
 
 .logo-lg{text-align: center;}
 
@@ -1436,7 +1790,15 @@ footer{
 	margin-top: -5000px;
 }
 
-@media screen and (min-width: 480px){	
+@media screen and (min-width: 250px){	
+	@media screen and (max-width: 480px){	
+		.pg-login{
+			width: 90%;
+		}
+	}
+}
+
+@media screen and (min-width: 481px){	
 	@media screen and (max-width: 1100px){	
 		.pg-login{
 			width: 70%;
