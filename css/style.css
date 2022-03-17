@@ -718,16 +718,17 @@ footer{
         line-height: 108px;
         font-weight: normal;
         font-style: normal;
-        width: 421px;
-        height: 219px;
+        width: 70%;
+        float: right;
+        margin-right: 10px;
         font-family: 'Reem Kufi';
-        margin-left: 132px;
     }
     
     .info-text {
         color: white;
         text-align: right;
         font-size: 30px;
+        clear: both;
         line-height: 36px;
         padding-right: 30px;
         margin-top: 40px
@@ -895,42 +896,49 @@ footer{
         text-decoration: none;
         color: #FFFFFF;
     }
-    @media only screen and (max-width:480px) {
+
+@media only screen and (max-width:480px) {
     .paginas-funciona,
     .login-funciona {
         display: none;
     }
+    
     #retangulorosa {
         position: relative;
-        width: 100%;
-        height: background: #F24D5D;
-        border-radius: 0;
-        clear: right;
-        margin: 0;
-    }
-    .style-text {
         text-align: center;
-        margin-top: 10;
+        width: 95%;
+        float: none;
+        height: 420px;
+        background: #F24D5D;
+        margin: auto;
+    }
+
+    .style-text {
         color: #fff;
-        clear: both;
         font-size: 50px;
         line-height: 60px;
+        text-align: center;
         width: 100%;
-        margin-left: 0;
+        float: none;
     }
+    
     .info-text {
+        width: 95%;
         text-align: center;
         padding: 0;
-        margin-top: 0;
+        margin-top: 50px;
     }
+
     .info-precisamos {
         margin-top: 30px;
         font-size: 30px;
         line-height: 50px;
     }
+
     .img-precisamos {
         width: 90%;
     }
+
     .botao-agendar {
         width: 30%;
         height: 50px;
@@ -938,10 +946,12 @@ footer{
         font-size: 20px;
         color: #FFFFFF;
     }
-    .lista1 {
+
+    .lista1 {    
         font-size: auto;
         margin-left: 5%;
     }
+
     .lista2 {
         margin-top: -2%;
         font-size: auto;
@@ -949,21 +959,25 @@ footer{
         float: left;
         margin-left: 5%;
     }
+
     #incluso-hospedagem {
         bottom: 400px;
         width: 100%;
         height: 1300px;
         background: #F24D5D;
     }
+
     .oque-esta-incluso {
         padding-top: 8px;
         font-size: 30px;
         line-height: 40px;
     }
+
     .regras-da-casa {
         font-size: 30px;
         line-height: 70px
     }
+
     .venha-conhecer {
         font-size: 30px;
         line-height: 40px;
@@ -974,6 +988,7 @@ footer{
         margin: auto;
         margin-top: 10px;
     }
+
     .Estrutura-button {
         clear: both;
         margin-left: 30%;
@@ -985,53 +1000,61 @@ footer{
         font-size: 20px;
     }
 }
-    @media only screen and (min-width:481px) {
-        @media only screen and (max-width: 1100px) {
-            .paginas-funciona, .login-funciona {
-                display: none;
-            }
-            nav.mobile-menu-branco {
-                display: block;
-            }
-            .venha-conhecer {
-                padding-right: 3%;
-                margin-left: 20%;
-            }
-            .lista1 {
-                font-size: 15px;
-                margin-left: 5%;
-            }
-            .lista2 {
-                font-size: 15px;
-                margin-right: 3%;
-            }
-            #retangulorosa {
-                background: #F24D5D;
-                border-radius: 20px;
-                float: right;
-                top: 300px;
-                margin-right: 2%;
-                margin: auto;
-            }
-            .info-text {
-                position: relative;
-                left: 30px;
-                color: white;
-                clear: both;
-                text-align: right;
-                font-size: 25px;
-                line-height: 36px;
-                width: 550px;
-            }
+
+@media only screen and (min-width:481px) {
+    @media only screen and (max-width: 1100px) {
+        .paginas-funciona, .login-funciona {
+            display: none;
         }
-    }
-@media only screen and (max-width:1100px){
-    .paginas-funciona, .login-funciona{
-        display: none;
-    }
-            
-    nav.mobile-menu-branco{
-        display: block;
+
+        nav.mobile-menu-branco {
+            display: block;
+        }
+
+        .venha-conhecer {
+            padding-right: 3%;
+            margin-left: 20%;
+        }
+
+        .lista1 {
+            font-size: 17px;
+            margin-left: 3%;
+        }
+
+        .lista2 {
+            font-size: 17px;
+            margin-right: 3%;
+        }
+
+        #retangulorosa {
+            width: 89%;
+            background: #F24D5D;
+            border-radius: 20px;
+            float: none;
+            top: 300px;
+            margin: auto;
+        }
+
+        .style-text {
+            text-align: center;
+            color: white;
+            font-size: 60px;
+            margin: auto;
+            float: none;
+            padding: 50px 00px 0 0px;
+            line-height: 56px;
+        }
+
+        .info-text {
+            position: relative;
+            left: 30px;
+            color: white;
+            clear: both;
+            text-align: center;
+            font-size: 25px;
+            line-height: 36px;
+            width: 95%;
+        }
     }
 }
 
@@ -1423,158 +1446,262 @@ footer{
     font-size: 17px;
 }
             
- .banner-ajuda {
-                width: 100%;
-                height: 1000px;
-                padding: 10px 0%;
-                background-image: url('../imagens/capa-ajuda.png');
-                background-position: center;
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
+.banner-ajuda {
+        width: 100%;
+        height: 1000px;
+        padding: 10px 0%;
+        background-image: url('../imagens/capa-ajuda.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
             
-            .logo-ajuda {
-                width: 250px;
-                height: 100px;
-                float: left;
-                margin-left: -18px;
-                margin-top: 15px;
-                background-image: url('../imagens/logo-branca.png');
-                background-size: contain;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
+.logo-ajuda {
+        width: 250px;
+        height: 100px;
+        float: left;
+        margin-left: -18px;
+        margin-top: 15px;
+        background-image: url('../imagens/logo-branca.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+}
             
-            .header-ajuda a {
-                color: #fff;
-                text-decoration: none;
-            }
+.header-ajuda a {
+        color: #fff;
+        text-decoration: none;
+}
             
-            .header-ajuda a:hover {
-                color: #F24D5D;
-            }
+.header-ajuda a:hover {  color: #F24D5D; }
             
-            .paginas-contato {
-                float: left;
-                margin-top: 65px;
-            }
+.paginas-contato {
+    float: left;
+    margin-top: 65px;
+}
             
-            .paginas-contato a {
-                padding: 0 25px;
-                margin-top: 65px;
-                list-style-type: none;
-                margin-left: -20px;
-            }
+.paginas-contato a {
+        padding: 0 25px;
+        margin-top: 65px;
+        list-style-type: none;
+        margin-left: -20px;
+}
             
-            .login-contato {
-                float: right;
-                margin-top: 65px;
-                margin-right: 80px;
-            }
+.login-contato {
+        float: right;
+        margin-top: 65px;
+        margin-right: 80px;
+}
             
-            .login-contato a {
-                margin-top: 65px;
-                list-style-type: none;
-                padding: 0 10px;
-            }
+.login-contato a {
+        margin-top: 65px;
+        list-style-type: none;
+        padding: 0 10px;
+}
 
-              #retangulo {
+#retangulo {
+        position: relative;
+        width: 30%;
+        height: 320px;
+        min-width: 300px;
+        top: 150px;
+        margin-left: 3%;
+        background: #FFCD1E;
+}
+     
+.text {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Reem Kufi';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 400%;
+        line-height: 96px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 30px 0;
+        margin-top: 100px;
+}
+            
+form {
+        position: relative;
+        width: 417px;
+        height: 658px;
+        float: right;
+        bottom: -30px;
+        margin-right: 10%;
+}
+            
+.input-ajuda,
+textarea {
+        background: rgba(196, 196, 196, 0.5);
+        border-radius: 8px;
+        width: 410.79px;
+        height: 69.19px;
+        display: block;
+        margin: 30px auto;
+        padding-left: 10px;
+        border: none;
+        color: white;
+}
+            
+.fale-conosco-form {
+        text-align: center;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFCD1E;
+}
+            
+textarea {
+        height: 180px;
+        padding-top: 10px;
+}
+            
+.input-ajuda::placeholder {
+        color: #fff;
+        font-family: lato;
+}
+            
+#mensagem {
+        color: #fff;
+        font-family: lato;
+}
+            
+.botao-enviar {
+        display: block;
+        margin: -20px auto;
+        background: #FFCD1E;
+        border-radius: 8px;
+        width: 122px;
+        height: 44px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        cursor: pointer;
+        border: none;
+}
+
+           
+@media only screen and (max-width:480px) {
+    
+    .paginas-contato, .login-contato{  display: none;  }
+            
+    nav.mobile-menu-branco{  display: block;   }
+
+    .banner-ajuda { width: 100%;  }
+
+    .input-ajuda,
+    textarea {
+        width: 90%;
+        height: 50px;
+        display: block;
+    }
+
+    form {
+        position: relative;
+        float: none;
+        clear: both;
+        bottom: -490px;
+        width: 100%;
+        height: 608px;
+    }
+
+    .botao-enviar {
+        position: relative;
+        margin: auto;
+    }
+
+    #retangulo {
+        position: relative;
+        width: 90%;
+        height: 316px;
+        font-size: 10px;
+        line-height: 20px;
+        top: -500px;
+        margin: auto;
+        display: flex;
+        background: #FFCD1E;
+    }
+
+    .text {
+        position: relative;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        left: 0;
+    }
+
+    .banner-ajuda {
+        width: 100%;
+        height: 1200px;
+        padding: 10px 0%;
+    }
+
+                
+    textarea {
+        height: 130px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width:481px) {
+    @media only screen and (max-width: 1100px) {
+        .paginas-contato, .login-contato{  display: none;   }
+                    
+        nav.mobile-menu-branco{ display: block;   }
+
+        .botao-enviar {
             position: relative;
-            width: 30%;
-            height: 316px;
+            margin: auto;
+        }
+
+        .fale-conosco-form {  margin: 0 0px; }
+
+        form {
+            position: relative;
+            width: 100%;
             min-width: 300px;
-            top: 150px;
-            margin-left: 3%;
+            height: 658px;
+            clear: both;
+            bottom: -490px;
+            margin: auto;
+        }
+
+        .banner-ajuda {
+            width: 100%;
+            height: 1500px;
+            padding: 10px 0%;
+            background-image: url('../imagens/capa-ajuda.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #retangulo {
+            position: relative;
+            width: 450px;
+            height: 316px;
+            top: -500px;
+            margin: auto;
+            display: flex;
             background: #FFCD1E;
         }
-        
+
         .text {
             position: relative;
-            margin-left: auto;
-            margin-right: auto;
-            font-family: 'Reem Kufi';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 400%;
-            line-height: 96px;
+            font-size: 50px;
+            line-height: 60px;
             text-align: center;
-            color: #FFFFFF;
-            max-width: 300px;
-            margin-top: 100px;
-        }
-            /*pq ela n interfere dentor da imagem ?*/
-            
-            form {
-                position: relative;
-                width: 417px;
-                height: 658px;
-                float: right;
-                bottom: -30px;
-                margin-right: 3%;
-            }
-            
-            .input-ajuda,
-            textarea {
-                background: rgba(196, 196, 196, 0.5);
-                border-radius: 8px;
-                width: 410.79px;
-                height: 69.19px;
-                display: block;
-                margin: 30px auto;
-                padding-left: 10px;
-                border: none;
-                color: white;
-            }
-            
-            .fale-conosco-form {
-                text-align: center;
-                font-family: Lato;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 36px;
-                line-height: 43px;
-                color: #FFCD1E;
-            }
-            
-            textarea {
-                height: 180px;
-                padding-top: 10px;
-            }
-            
-            .input-ajuda::placeholder {
-                color: #fff;
-                font-family: lato;
-            }
-            
-            #mensagem {
-                color: #fff;
-                font-family: lato;
-            }
-            
-            button {
-                display: block;
-                margin: -20px auto;
-                background: #FFCD1E;
-                border-radius: 8px;
-                width: 122px;
-                height: 44px;
-                font-size: 18px;
-                line-height: 22px;
-                text-align: center;
-                color: #000000;
-                cursor: pointer;
-                border: NONE;
-            }
-
-            @media only screen and (max-width:1100px){
-                .paginas-contato, .login-contato{
-                    display: none;
-                }
-                        
-                nav.mobile-menu-branco{
-                    display: block;
-                }
-            }
+            padding-top: 0;
+            left: 0;
+        }    
+    }
+}
 
 /* CADASTRO: Guilherme // Bruno Costa */ 
 
