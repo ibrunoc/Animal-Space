@@ -1181,7 +1181,7 @@ footer{
 .img-cao-flor {
     position: relative;
     max-width: 50%;
-    min-width: 400px;
+    min-width: 350px;
     height: auto; 
     margin-left: 25%;
     margin-top: 100px;
@@ -1310,7 +1310,7 @@ footer{
 
 @media only screen and (max-width:720px){
     #retangulo-capa-pgt {
-        min-width: 370px;
+        min-width: 350px;
     }
 
     .estilo-texto-capa-pgt{
