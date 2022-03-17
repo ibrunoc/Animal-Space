@@ -2,8 +2,9 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="pt-br, en-US," />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
@@ -30,8 +31,21 @@
             <a>/</a>
             <a href="login.html">Login</a>
         </div>
+
+        <nav class="mobile-menu-branco">
+            <ul>
+                <li><a href="../index.html">Ínicio</a></li>
+                <li><a href="como-funciona.html">Como Funciona</a></li>
+                <li><a href="estrutura.html">Estrutura</a></li>
+                <li><a id="select" href="">Ajuda</a></li>
+                <li><a href="cadastro.html">Criar Conta</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
     </header>
 
+    
     <div class="banner-ajuda">
         <div class="container">
             <form>
@@ -40,12 +54,13 @@
                 <input class="input-ajuda" type="email" name="email" placeholder="E-mail" required>
                 <input class="input-ajuda" type="celphone" placeholder="Telefone" name="Number">
                 <textarea placeholder="Escreva sua mensagem..." required> </textarea>
-                <button type="submit">Enviar</button>
+                <button class="botao-enviar" type="submit">Enviar</button>
             </form>
 
-            <div id="retangulo">
-                <h1 class="text">PRECISA DE AJUDA ?</h1>
-            </div>
+            
+                <div id="retangulo">
+                    <h1 class="text">PRECISA DE AJUDA ?</h1>
+                </div>
         </div>
 
     </div>
@@ -103,6 +118,7 @@
         <!--container-->
     </footer>
 
-</body>
-
-</html>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/menu_responsivo.js"></script>
+    </body>
+    </html>
