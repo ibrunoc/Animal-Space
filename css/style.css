@@ -225,6 +225,7 @@ section.explicacao{
 	height: 64px;
 	text-align: center;	
 	margin-top: 25px;
+	margin: 25px auto;
     margin-bottom: 25px;
 	line-height: 60px;
 	border-radius: 10px;
