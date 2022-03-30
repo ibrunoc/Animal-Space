@@ -87,7 +87,7 @@ nav.mobile-menu ul{
 	top: 120px;
 	border-bottom:4px solid #F24D5D;
 	position: absolute;
-    z-index: 5;
+    	z-index: 5;
 	text-align: center;
 	background-color: #F0F1F1;
 }
@@ -224,15 +224,16 @@ section.explicacao{
 	width: 180px;
 	height: 64px;
 	text-align: center;	
-	margin-top: 90px;
-   	margin-bottom: 25px;
 	line-height: 60px;
 	border-radius: 10px;
 	background-color: #F24D5D;
 	font-size: 20px;
 	cursor: pointer;
 	clear: both;	
-	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 90px auto;
 }
 
 .botao-cmfunciona a{
