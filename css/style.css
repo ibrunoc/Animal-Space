@@ -232,6 +232,7 @@ section.explicacao{
 	font-size: 20px;
 	cursor: pointer;
 	clear: both;	
+	margin: 20px auto;
 }
 
 .botao-cmfunciona a{
