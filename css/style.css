@@ -224,16 +224,13 @@ section.explicacao{
 	width: 180px;
 	height: 64px;
 	text-align: center;	
+	margin: 30px auto;
 	line-height: 60px;
 	border-radius: 10px;
 	background-color: #F24D5D;
 	font-size: 20px;
 	cursor: pointer;
 	clear: both;	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 120px auto;
 }
 
 .botao-cmfunciona a{
