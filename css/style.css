@@ -362,7 +362,12 @@ section.visitar{
 	font-family: 'Reem Kufi';
 }
 
-.botao-home{text-align: center;}
+.botao-home{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+}
 
 .botao-visitar{
 	width: 280px;
