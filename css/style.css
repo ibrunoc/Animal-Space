@@ -1890,6 +1890,9 @@ textarea {
 }
 
 .pg-login button{
+	margin: auto;
+	justify-content: center;
+	display: flex;
 	clear: both;
 	font-family: 'Reem Kufi', sans-serif;
 	border: none;
