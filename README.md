@@ -26,7 +26,8 @@
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Git](https://git-scm.com/docs)
-- [VS Code](https://code.visualstudio.com/).
+- [VS Code](https://code.visualstudio.com/)
+- [Figma](https://figma.com/)
 
 ## Como Usar O Projeto
 Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), instalado em seu computador.
